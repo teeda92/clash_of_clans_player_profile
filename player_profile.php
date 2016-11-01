@@ -22,10 +22,16 @@
 			$json = $this->sendRequest("https://api.clashofclans.com/v1/players/".urlencode($tag));
 			return json_decode($json);
 		}
+		public function get_api()
+		{
+			return $this->_apiKey;
+		}
 	}
 	
 	$tag = NULL;  //Change this value to your desired tag, eg "#12345678"
 	$clan = new ClashOfClans();
+	if($clan->get_api() == NULL){echo 'Please set API KEY'; exit;}
+	if($tag == NULL){echo 'Please set player tag'; exit;}
 	$member = $clan->getMemberDataByTag($tag);
 ?>
 <style type="text/css">

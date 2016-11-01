@@ -1,0 +1,543 @@
+.containMember{
+	border-radius: 4px;
+	font-family: ClashStyleFont;
+	font-size: xx-small;
+	margin: auto;
+	border: 1px solid gray;
+	background: #edebe7;
+	padding: 5px;
+	color: white;
+	width: 700px;
+	min-height: 600px;color: white;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+	box-sizing: content-box !important;
+}
+.containMember div{
+	box-sizing: inherit !important;
+}
+
+.playerInfo{
+	height: 150px;
+	border-radius: 4px;
+	border: 3px solid #71739a;
+	background: #4b4d7d;
+}
+.playerInfo > .top{
+	height: 110px;
+}
+.basicPlayerInfo{
+	float: left;
+	width: 359px;
+	background: #9a9dbc;
+	height: inherit;
+	padding: 10px;
+}
+.playerLevel{
+	float: left;
+}
+.playerLevel > span{
+	position: absolute;
+	margin-top: 14px;
+	margin-left: 13px;
+}
+.playerLevel > img{
+	width: 40px;
+}
+.playerName{
+	font-size: large;
+}
+.zclanLevel{
+	clear: both;
+}
+.zclanLevel > img{
+	width: 35px;
+	float: left;
+}
+.zclanLevel > span{
+	position: absolute;
+	margin-left: 16px;
+	font-size: 4px;
+	margin-top: 4px;
+}
+.leagueAndWarInfo{
+	float: right;
+	width: 40%;
+	width: 295px;
+	background: #73759c;
+	height: inherit;
+	padding: 10px;
+}
+.leagueAndWarInfo > .bottom{
+	clear: both;
+}
+.numbersImpression{
+	background: #39385a;
+	border-radius: 4px;
+	padding-right: 20px;
+}
+.warStars{
+	width: 50%;
+	float: left;
+}
+.warStars > .numbersImpression > img{
+	height: 18px;
+	vertical-align: middle;
+}
+.bestTrophyCount{
+	width: 50%;
+	float: left;
+}
+.leagueIcon{
+	float: left;
+}
+.leagueIcon, .leagueName{
+	display: inline;
+}
+.trophyImage{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+.trophyImageSmall{
+	width: 13px;
+	vertical-align: middle;
+}
+.seasonData{
+	padding: 22px 5px 0px 5px;
+	font-size: 9px;
+}
+.seasonData > div{
+	display: inline;
+	min-width: 25%;
+	float: left;
+}
+.seasonData > div > span{
+	background: #22244b;
+	border-radius: 4px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.achievementsInfo{
+	overflow: overlay;
+	height: 320px;
+}
+.achievementwrap{
+	border: 1px solid black;
+	border-radius: 4px;
+	width: 45%;
+	margin: 1% 2%;
+	display: inline-flex;
+}
+.achievement{
+	border: 2px solid #fdfefc;
+	border-radius: 4px;
+	height: 60px;
+	width: 100%;
+	background: #cfd2d7;
+}
+.achievementStars{
+	float: left;
+	margin-top: 12px;
+}
+.achievementStars > img{
+	height: 30px;
+}
+.achievementDescription{
+	color: black;
+	text-shadow: none;
+	font-size: 6px;
+}
+.achievementProgress{
+	color: gray;
+	text-shadow: none;
+	font-size: 6px;
+	position: relative;
+	margin-left: 88px;
+	margin-top: 25px;
+}
+.achievementBar{
+	border: 1px solid #49433b;
+	width: 185px;
+	text-align: center;
+	color: white;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+	background: #595650;
+	border-radius: 4px;
+	height: 9px;
+	margin-top: -3px;
+	position: relative;
+}
+.achievementProgressBar{
+	background: linear-gradient(to bottom, #97dc38 0%,#97dc38 50%,#000000 50%,#32a900 50%,#32a900 100%);
+	border-radius: inherit;
+	margin-top: -8px;
+	height: 100%;
+}
+.achievementName{
+	margin-top: 3px;
+}
+.troopInfo > span{
+	position: absolute;
+	font-family: calibri;
+	font-size: 10px;
+}
+.Barbarian{
+	margin-top: 57px;
+	margin-left: 85px;
+}
+.grayBarbarian{
+	top: -160px;
+	left: 117px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -136px -55px no-repeat;
+}
+.Archer{
+	margin-top: 57px;
+	margin-left: 117px;
+}
+.Goblin{
+	margin-top: 57px;
+	margin-left: 181px;
+}
+.Giant{
+	margin-top: 57px;
+	margin-left: 149px;
+}
+.WallBreaker{
+	margin-top: 57px;
+	margin-left: 213px;
+}
+.Balloon{
+	margin-top: 57px;
+	margin-left: 245px;
+}
+.Wizard{
+	margin-top: 57px;
+	margin-left: 277px;
+}
+.Healer{
+	margin-top: 57px;
+	margin-left: 309px;
+}
+.grayHealer{
+	top: -160px;
+	left: 502px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -518px -55px no-repeat;
+}
+.Dragon{
+	margin-top: 57px;
+	margin-left: 341px;
+}
+.grayDragon{
+	top: -160px;
+	left: 557px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -573px -55px no-repeat;
+}
+.PEKKA{
+	margin-top: 57px;
+	margin-left: 373px;
+}
+.grayPEKKA{
+	top: -160px;
+	left: 612px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -628px -55px no-repeat;
+}
+.Minion{
+	margin-top: 88px;
+	margin-left: 149px;
+}
+.grayMinion{
+	top: -107px;
+	left: 226px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -242px -109px no-repeat;
+}
+.HogRider{
+	margin-top: 88px;
+	margin-left: 181px;
+}
+.grayHogRider{
+	top: -107px;
+	left: 281px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -296px -109px no-repeat;
+}
+.Valkyrie{
+	margin-top: 88px;
+	margin-left: 213px;
+}
+.grayValkyrie{
+	top: -107px;
+	left: 338px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -351px -109px no-repeat;
+}
+.Golem{
+	margin-top: 88px;
+	margin-left: 245px;
+}
+.grayGolem{
+	top: -107px;
+	left: 391px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -406px -109px no-repeat;
+}
+.Witch{
+	margin-top: 88px;
+	margin-left: 277px;
+}
+.grayWitch{
+	top: -107px;
+	left: 447px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -463px -109px no-repeat;
+}
+.LavaHound{
+	margin-top: 88px;
+	margin-left: 309px;
+}
+.grayLavaHound{
+	top: -107px;
+	left: 502px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -518px -109px no-repeat;
+}
+.Bowler{
+	margin-top: 88px;
+	margin-left: 341px;
+}
+.grayBowler{
+	top: -107px;
+	left: 557px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -573px -109px no-repeat;
+}
+.BabyDragon{
+	margin-top: 88px;
+	margin-left: 85px;
+}
+.grayBabyDragon{
+	top: -107px;
+	left: 116px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -135px -109px no-repeat;
+}
+.Miner{
+	margin-top: 88px;
+	margin-left: 117px;
+}
+.grayMiner{
+	top: -107px;
+	left: 171px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -187px -109px no-repeat;
+}
+.BarbarianKing{
+	margin-top: 57px;
+	margin-left: 578px;
+}
+.grayBarbarianKing{
+	top: -160px;
+	left: 974px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -990px -55px no-repeat;
+}
+.ArcherQueen{
+	margin-top: 57px;
+	margin-left: 611px;
+}
+.grayArcherQueen{
+	top: -160px;
+	left: 1029px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -1045px -55px no-repeat;
+}
+.GrandWarden{
+	margin-top: 57px;
+	margin-left: 644px;
+}
+.grayGrandWarden{
+	top: -160px;
+	left: 1084px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -1100px -55px no-repeat;
+}
+.LightningSpell{
+	margin-top: 57px;
+	margin-left: 414px;
+}
+.grayLightningSpell{
+	top: -160px;
+	left: 683px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -697px -55px no-repeat;
+}
+.HealingSpell{
+	margin-top: 57px;
+	margin-left: 446px;
+}
+.grayHealingSpell{
+	top: -160px;
+	left: 739px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -753px -55px no-repeat;
+}
+.RageSpell{
+	margin-top: 57px;
+	margin-left: 478px;
+}
+.grayRageSpell{
+	top: -160px;
+	left: 794px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -809px -55px no-repeat;
+}
+.JumpSpell{
+	margin-top: 57px;
+	margin-left: 510px;
+}
+.grayJumpSpell{
+	top: -160px;
+	left: 849px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -865px -55px no-repeat;
+}
+.FreezeSpell{
+	margin-top: 57px;
+	margin-left: 542px;
+}
+.grayFreezeSpell{
+	top: -160px;
+	left: 905px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -921px -55px no-repeat;
+}
+.CloneSpell{
+	margin-top: 88px;
+	margin-left: 414px;
+}
+.grayCloneSpell{
+	top: -102px;
+	left: 683px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -697px -111px no-repeat;
+}
+.PoisonSpell{
+	margin-top: 88px;
+	margin-left: 446px;
+}
+.grayPoisonSpell{
+	top: -102px;
+	left: 739px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -753px -111px no-repeat;
+}
+.EarthquakeSpell{
+	margin-top: 88px;
+	margin-left: 478px;
+}
+.grayEarthquakeSpell{
+	top: -102px;
+	left: 794px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -809px -111px no-repeat;
+}
+.HasteSpell{
+	margin-top: 88px;
+	margin-left: 510px;
+}
+.grayHasteSpell{
+	top: -102px;
+	left: 849px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -865px -111px no-repeat;
+}
+.SkeletonSpell{
+	margin-top: 88px;
+	margin-left: 542px;
+}
+.graySkeletonSpell{
+	top: -102px;
+	left: 905px;
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	background: url(http://nyph.x10host.com/img/troopspellherofulltemplate.png) -921px -111px no-repeat;
+}
+.grayRules{
+	position: absolute;
+	width: 54px;
+	height: 52px;
+	filter: grayscale(1);
+	transform: scale(0.58);
+}
+.townhall{
+	font-family: ClashStyleFont !important;
+	width: 70px;
+	text-align: center;
+	margin-top: 21px;
+	margin-left: 5px;
+	font-size: large !important;
+	word-wrap: break-word;
+}
